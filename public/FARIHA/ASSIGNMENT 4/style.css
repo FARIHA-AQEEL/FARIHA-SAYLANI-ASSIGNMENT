@@ -1,0 +1,738 @@
+*
+{
+    margin: 0;
+    padding : 0;
+}
+
+body
+{
+    background-color:  pink;
+    font-family: sans-serif;
+}
+
+.top-nav-bar
+{
+    height: 60px;
+    top: 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid  pink;
+    z-index: 2;
+}
+.logo
+{
+    width: 40px;
+    height: 40px;
+    margin: 5px 10px;
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid pink!important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+.input-group-text
+{
+    background: o pink !important;
+    border: 1px solid  pink !important;
+    margin: 8.5px 10px 3px 0 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+}
+.search-box
+{
+    display: inline-flex;
+    width: 60%;
+}
+.fa-search
+{
+    color: black;
+}
+.menu-bar
+{
+    height: 57px;
+    width: 40%;
+    float: right;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    float: right;
+}
+.menu-bar ul li
+{
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color:pink;
+    cursor: pointer;
+}
+.menu-bar ul li a
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.fa-shopping-basket
+{
+    margin-right: 5px;
+}
+.nav_content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: palevioletred;
+    text-align: center !important;
+    margin: 5px 5px 5px 5px  auto;
+    text-decoration: rebeccapurple;
+    background-color: pink;
+}
+/* menu bar */
+.buttons{
+    width: max-content;
+    margin: 10px auto;
+    text-align: right;
+
+}
+.nav_btn{
+    text-decoration: none;
+}
+.nav_btn button{   
+    text-transform: capitalize;
+    color: black;
+    border: none;
+    padding: 3px 10px;
+    background-color: #fff;
+}
+#navbar {
+    background-color:pink;
+  }
+  
+  .sticky {
+    z-index: 1;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/* sticky navbar end */
+
+
+/* navbar logo */
+
+.navbar_logo img{
+    width: 200px;
+    height: 60px;
+    margin: 0 0 0 25px;
+}
+
+/* navbar_menu */
+.navbar_menu{
+    height: 60px;;
+    margin-left: 300px;
+}
+.navbar_menu ul {
+    text-transform: capitalize;
+    list-style: none;
+    display: inline-flex; /* inline-flex*/
+}
+.navbar_menu ul li{
+    margin: 10px 0px;
+    padding:  5px 10px;
+    border-radius: 100px;
+}
+.navbar_menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.active_li {
+    background-color:pink;
+    font-weight: bold;
+}
+.active_li a{
+    color: white !important;
+}
+.navbar_menu ul li:hover{
+    background-color:pink;
+}
+.navbar_menu ul li:hover a{
+    color: white ;
+}
+.first_hover_menu{
+    display :none;
+}
+.navbar_menu ul li:hover .first_hover_menu{
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: 55px;
+    min-width: 200px;
+    background-color: white;
+}
+.navbar_menu ul li:hover .first_hover_menu ul{
+    display: block;
+}
+.navbar_menu ul li:hover .first_hover_menu ul li a{
+    color: black ;
+}
+.first_hover_menu ul li:hover {
+    border-radius: 0 !important;
+    background: pink ;
+    color: white ;
+    padding-left: 10px; 
+}
+.navbar_menu ul li:hover .first_hover_menu ul li:hover a{
+    color: white ;
+    margin-left: 10px;
+}
+.first_hover_menu .fa-angle-right{
+    float: right;
+    padding-right: 10px;
+}
+
+/* * slider css  */
+.carousel-item img{
+    height: 500px !important;
+    width: 700 !important;
+    padding: 50px 50px 50px 50px ;
+}
+.intro{
+
+
+    margin: 40px 0px;
+}
+
+.h1{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.pink{
+    color:pink;
+} 
+.purple{
+    color: purple;
+}
+.logoo{
+    width: 300px;
+    text-align: center;
+    margin: 0px auto 50px auto;
+    position: relative;
+}
+.logoo img{
+    width: 45px;
+    height: 45px;
+}
+
+.logoo::after{
+    content: "";
+    height: 2px;
+    width: 55px;
+    position: absolute;
+    background-color: pink
+    right: 55px;
+    bottom: 10px;
+}
+.intro .para{
+    color: purple;
+    background-color:pink;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding: 30px 20px 20px 30px;
+}
+/* ---------------------  ------------------------- */
+.featured-categories
+{
+    margin:50px 0;
+}
+.featured-categories img
+{
+    width: 50%;
+    padding: 20px 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.featured-categories img:hover
+{
+    transform:scale(1.1);
+}
+
+/* --------------------- On Sale  ------------------------- */
+
+.title-box
+{
+    background-color :pink;
+    width: 180px;
+    height:40px;
+    padding: 5px 10px;
+    margin-bottom:50px;
+    display: flex;
+}
+.title-box h2
+{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.title-box::after
+{
+    content: '';
+    border-top: 40px solid pink;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -4px;
+    margin-left: 170px;
+    ;
+}
+.product-top img
+{
+    width: 50%;
+    height: 100%;
+}
+.overlay-right
+{
+    text-align: center;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 10%;
+    width: 70px;
+    margin-left: 0;
+
+}
+.overlay-right .fa
+{
+    color: #fff;
+    cursor: pointer;
+    background-color:#000;
+    height:35px;
+    width:35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.overlay-right .btn-secondary
+{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.product-top:hover .overlay-right
+{
+    opacity: 1;
+    transition: 0.5s;
+    margin-left: 10%;
+}
+/* ------------------ Product-bottom-CSS ------------------- */
+.product-bottom
+{
+    text-align: center;
+}
+.product-bottom .fa
+{
+    color:  pink;
+    font-size: 12px;
+}
+.product-bottom h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-bottom h5
+{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.new-products
+{
+    margin: 50px 0;
+}
+/* ------------ Website Features----------- */
+.website-features
+{
+    margin: 60px 0;
+}
+.website-features img
+{
+    width: 25%;
+    height: 60%;
+    /* border-radius: 50%; */
+}
+.feature-box
+{
+    padding-top: 20px;
+}
+.feature-text
+{
+    width: 70%;
+    float: right;
+    padding-left: 9px;
+    margin-top: 10px;
+}
+
+
+
+
+/* ------------- Footer --------------------- */
+.footer
+{
+    padding: 100px 0px;
+    margin-top: 50px;
+    background:pink;
+    color: white;
+}
+.footer h1
+{
+    color: purple;
+    font-size: 17px;
+    margin: 25px 0;
+}
+.footer p
+{
+    color: white;
+    font-size: 14px;
+}
+.footer-image img
+{
+    width: 80%;
+}
+.copyright
+{
+    color: white;
+    margin-bottom: -1px;
+    text-align:center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.fa-heart-o
+{
+    color:white;
+    font-size: 15px;
+}
+.footer hr
+{
+    background-color: white;
+    margin-top: 20px;
+}
+.footer .row .fa
+{
+    padding-right: 0px;
+    font-size: 16px;
+}
+
+
+.footer2{
+    background-color:purple;
+    color: pink;
+    padding: 5px;
+}
+ 
+
+
+
+/* go to top btn */
+#myBtn{
+    width: 50px ;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    outline: none;
+    display: block;
+    bottom: 30px;
+    right: 30px;
+    background-color:rgb(211, 207, 207);;
+}
+#myBtn .fa-angle-double-up{
+    font-size: 40px;
+    color: white;
+}
+#myBtn:hover {
+   
+    box-shadow: 3px 3px 25px 1px white;
+    background-color::rgb(211, 207, 207);
+}
+#myBtn:hover .fa-angle-double-up {
+    color: purple;
+}
+
+
+ /*  */
+
+
+/* BASIC */
+
+/* html {
+    background-color: #f3bbf0;
+  } */
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+  }
+  
+  a {
+    color: #f3bbf0;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px; 
+    color: #cccccc;
+  }
+  
+  
+  
+  /* STRUCTURE */
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }
+  
+  #formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  #formFooter {
+    /* background-color: #f6f6f6; */
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  
+  
+  /* TABS */
+  
+  h2.inactive {
+    color: #cccccc;
+  }
+  
+  h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #f3bbf0;
+  }
+  
+  
+  
+  /* FORM TYPOGRAPHY*/
+  
+  input[type=button], input[type=submit], input[type=reset]  {
+    /* background-color: #f3bbf0; */
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #f3bbf0;
+  }
+  
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  input[type=text] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #f3bbf0;
+  }
+  
+  input[type=text]:placeholder {
+    color: #cccccc;
+  }
+  
+  
+  
+  /* ANIMATIONS */
+  
+  /* Simple CSS3 Fade-in-down Animation */
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+  
+  .fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+  
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+  
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+  }
+  
+  .fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  
+  .fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  
+  .fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  
+  .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  
+  /* Simple CSS3 Fade-in Animation */
+  .underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #f3bbf0;
+    content: "";
+    transition: width 0.2s;
+  }
+  
+  .underlineHover:hover {
+    color: #0d0d0d;
+  }
+  
+  .underlineHover:hover:after{
+    width: 100%;
+  }
+  
+  
+  
+  /* OTHERS */
+  
+  *:focus {
+      outline: none;
+  } 
+  
+  #icon {
+    width:60%;
+  }
